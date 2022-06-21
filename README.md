@@ -1,0 +1,2 @@
+# FaceDetectionOnAndroid
+该项目基于安卓设备实现人脸检测的功能
