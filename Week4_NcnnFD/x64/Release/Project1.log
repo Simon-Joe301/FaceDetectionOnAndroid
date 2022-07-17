@@ -1,0 +1,30 @@
+﻿  camera.cpp
+C:\Users\Administrator\Desktop\实习指南\ncnntest\Project1\UltraFace.hpp(62,33): warning C4305: “初始化”: 从“double”到“const float”截断
+C:\Users\Administrator\Desktop\实习指南\ncnntest\Project1\UltraFace.hpp(63,31): warning C4305: “初始化”: 从“double”到“const float”截断
+C:\Users\Administrator\Desktop\实习指南\ncnntest\Project1\camera.cpp(30,67): warning C4305: “参数”: 从“double”到“float”截断
+C:\Users\Administrator\Desktop\实习指南\ncnntest\Project1\camera.cpp(37,36): warning C4244: “参数”: 从“float”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+C:\Users\Administrator\Desktop\实习指南\ncnntest\Project1\camera.cpp(37,27): warning C4244: “参数”: 从“float”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+C:\Users\Administrator\Desktop\实习指南\ncnntest\Project1\camera.cpp(38,36): warning C4244: “参数”: 从“float”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+C:\Users\Administrator\Desktop\实习指南\ncnntest\Project1\camera.cpp(38,27): warning C4244: “参数”: 从“float”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+  正在生成代码
+  1 of 391 functions ( 0.3%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  Project1.vcxproj -> C:\Users\Administrator\Desktop\实习指南\ncnntest\Project1\x64\Release\Project1.exe
