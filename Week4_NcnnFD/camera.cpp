@@ -43,27 +43,5 @@ int main() {
     }
     cap.release();
     return 0;
-    /*UltraFace ultraface(bin_path, param_path, 320, 240, 1, 0.7); // config model input
 
-    for (int i = 3; i < argc; i++) {
-        string image_file = argv[i];
-        cout << "Processing " << image_file << endl;
-
-        Mat frame = imread(image_file);
-        ncnn::Mat inmat = ncnn::Mat::from_pixels(frame.data, ncnn::Mat::PIXEL_BGR2RGB, frame.cols, frame.rows);
-
-        vector<FaceInfo> face_info;
-        ultraface.detect(inmat, face_info);
-
-        for (int i = 0; i < face_info.size(); i++) {
-            auto face = face_info[i];
-            Point pt1(face.x1, face.y1);
-            Point pt2(face.x2, face.y2);
-            rectangle(frame, pt1, pt2, Scalar(0, 0, 255), 1);
-        }
-
-        imshow("UltraFace", frame);
-        waitKey();
-        imwrite("result.jpg", frame);
-    }*/
 }
